@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+     
+    <div class="md:container md:mx-auto flex justify-center items-center w-100 mt-[8rem]">
+
+     <div class="pt-[3rem]">
+        <label for="weather" class="mr-2">Select the weather type today: </label>
+        <select id="weather" class="border p-1">
+        <option value="">--Make a choice--</option>
+        <option value="sunny">Sunny</option>
+        <option value="rainy">Rainy</option>
+        <option value="snowing">Snowing</option>
+        <option value="overcast">Overcast</option>
+        </select>
+
+        <p class="py-8"></p>
+     </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
